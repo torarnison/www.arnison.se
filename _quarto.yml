@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - CNAME        # om du använder CNAME för www.arnison.se, annars ta bort
+
+website:
+  title: "Tor Arnison"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Hem
+      # Lägg till fler sidor här senare
+
+format:
+  html:
+    theme: cosmo          # eller annat Bootswatch-tema du gillar
+    css: styles.css       # vår egna CSS (inkl. splash-styles)
+    include-after-body:   # läggs in i slutet av <body> men visas över allt annat
+      - splash.html

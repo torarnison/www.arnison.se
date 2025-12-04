@@ -1,0 +1,55 @@
+<div id="splash-screen" style="display: none;">
+  <div style="text-align: center;">
+    <img
+      id="splash-logo"
+      src="images/logo.png"
+      alt="Tor Arnison"
+    />
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const splash = document.getElementById("splash-screen");
+    if (!splash) return;
+
+    // Kolla om användaren redan sett splashen tidigare
+    const hasSeenSplash = localStorage.getItem("hasSeenSplash");
+
+    if (hasSeenSplash === "true") {
+      // Användaren har redan sett – visa aldrig splash
+      splash.remove();
+      return;
+    }
+
+    // Första gången: visa splashen
+    splash.style.display = "flex";
+
+    const hideSplash = () => {
+      // Spara i localStorage att vi sett splashen
+      try {
+        localStorage.setItem("hasSeenSplash", "true");
+      } catch (e) {
+        // Ignorera ev. fel (t.ex. privat läge med blockerad storage)
+        console.warn("Could not access localStorage", e);
+      }
+
+      splash.classList.add("fade-out");
+      setTimeout(() => {
+        splash.remove();
+      }, 700); // matcha CSS-transitionen
+    };
+
+    // Klick på splash → stäng
+    splash.addEventListener("click", hideSplash);
+
+    // (valfritt) ESC stänger också
+    document.addEventListener(
+      "keydown",
+      (ev) => {
+        if (ev.key === "Escape") hideSplash();
+      },
+      { once: true }
+    );
+  });
+</script>

@@ -1,0 +1,37 @@
+/* --- Splash screen --- */
+#splash-screen {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;           /* mjukt, nästan vitt */
+  z-index: 2000;                 /* över allt annat */
+  cursor: pointer;
+  transition: opacity 0.7s ease; /* fade-effekt */
+}
+
+#splash-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Själva bilden på försidan */
+#splash-logo {
+  max-width: min(60vw, 360px);
+  height: auto;
+}
+
+/* Valfri liten text under loggan */
+#splash-hint {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+/* --- (valfritt) lite justering av jolla-bilden på startsidan --- */
+.about-image img {
+  max-width: 260px;
+}

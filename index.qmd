@@ -1,0 +1,21 @@
+---
+title: "Tor Arnison"
+subtitle: "Psychologist, epidemiologist, researcher"
+image: images/logo.png        # används av jolla om du inte anger annat
+about:
+  template: jolla             # <-- här väljer du jolla
+  image: images/logo.png      # specifik bild för about-blocket
+  image-shape: round          # eller square, rectangle
+  links:
+    - icon: envelope
+      text: E-post
+      href: "mailto:tor@arnison.se"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/dittnamn"
+---
+
+## About
+
+
+
