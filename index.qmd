@@ -6,6 +6,7 @@ about:
   template: jolla             # <-- här väljer du jolla
   image: images/logo.png      # specifik bild för about-blocket
   image-shape: round          # eller square, rectangle
+  image-width: 400px       # prova 150px, 200px osv
   links:
     - icon: envelope
       text: E-post
