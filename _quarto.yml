@@ -1,20 +1,63 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
+  # These scripts run before every render. They fetch publications from
+  # ORCID and build the CV from cv/cv.yml. Both need Python 3 with pyyaml
+  # (pip install pyyaml). Nothing else is required.
+  pre-render:
+    - python3 scripts/build_publications.py
+    - python3 scripts/build_cv.py
   resources:
-    - CNAME        # om du använder CNAME för www.arnison.se, annars ta bort
+    - CNAME
+    - files/
+  render:
+    - "*.qmd"
+    - "!README.md"
 
 website:
   title: "Tor Arnison"
+  site-url: https://www.arnison.se
+  description: "Tor Arnison — clinical psychologist and epidemiologist at Örebro University."
+  favicon: images/favicon.svg
+  open-graph: true
+  search: false
   navbar:
-    left:
-      - href: index.qmd
-        text: Hem
-      # Lägg till fler sidor här senare
+    background: "#E2EDEF"
+    foreground: "#29506A"
+    title: "Tor Arnison"
+    pinned: false
+    collapse-below: md
+    right:
+      - text: Bio
+        href: bio.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: CV
+        href: cv.qmd
+      # To add a page: create the .qmd file and add a line here, e.g.
+      # - text: Teaching
+      #   href: teaching.qmd
+  page-footer:
+    left: "© 2026 Tor Arnison"
+    center: ""
+    right:
+      - text: "tor@arnison.se"
+        href: "mailto:tor@arnison.se"
+      - text: ORCID
+        href: https://orcid.org/0000-0002-9035-0287
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=Thg-I08AAAAJ
+      - text: Örebro University
+        href: https://www.oru.se/english/employee/tor_arnison
 
 format:
   html:
-    theme: cosmo          # eller annat Bootswatch-tema du gillar
-    css: styles.css       # vår egna CSS (inkl. splash-styles)
-    include-after-body:   # läggs in i slutet av <body> men visas över allt annat
-      - splash.html
+    theme: custom.scss
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,300;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">

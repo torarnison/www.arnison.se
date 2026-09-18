@@ -1,0 +1,26 @@
+---
+title: "Bio"
+subtitle: "Background and research interests"
+---
+
+<!--
+Write freely below in Markdown. Headings (##) get a thin rule under them
+automatically. Delete or replace the placeholder text.
+-->
+
+I am a postdoctoral researcher at the School of Medical Sciences, Örebro University, and a licensed clinical psychologist. My work sits at the intersection of psychiatry, epidemiology and causal inference.
+
+## Research interests
+
+- Multimorbidity and psychiatric comorbidity in population registers
+- Sleep, mental health and pain in children and adolescents
+- Outcomes of electroconvulsive therapy in affective disorders
+- Causal inference methods: target trial emulation, mediation analysis, marginal structural models
+
+## Background
+
+*Add a few paragraphs about your clinical and academic path here.*
+
+## Beyond research
+
+*Optional: a short personal note.*

@@ -1,0 +1,10 @@
+---
+title: "Curriculum vitae"
+---
+
+<!--
+This page is built from cv/cv.yml by scripts/build_cv.py on every render.
+Edit cv/cv.yml, not cv/_generated.qmd.
+-->
+
+{{< include cv/_generated.qmd >}}

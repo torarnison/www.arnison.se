@@ -1,22 +1,40 @@
 ---
 title: "Tor Arnison"
 subtitle: "Psychologist, epidemiologist, researcher"
-image: images/logo.png        # används av jolla om du inte anger annat
+image: images/profile.webp
+format:
+  html:
+    body-classes: home
 about:
-  template: jolla             # <-- här väljer du jolla
-  image: images/logo.png      # specifik bild för about-blocket
-  image-shape: round          # eller square, rectangle
-  image-width: 400px       # prova 150px, 200px osv
+  template: jolla
+  image: images/profile.webp
+  image-shape: rectangle
+  image-width: 240px
   links:
-    - icon: envelope
-      text: E-post
-      href: "mailto:tor@arnison.se"
-    - icon: github
-      text: GitHub
-      href: "https://github.com/dittnamn"
+    - icon: google
+      text: Google Scholar
+      href: "https://scholar.google.com/citations?user=Thg-I08AAAAJ&hl=en"
+    - icon: person-badge
+      text: ORCID
+      href: "https://orcid.org/0000-0002-9035-0287"
+    - icon: building
+      text: Örebro University
+      href: "https://www.oru.se/english/employee/tor_arnison"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/tor-arnison-616367176/"
+    - icon: journal-text
+      text: ResearchGate
+      href: "https://www.researchgate.net/profile/Tor-Arnison"
+    - icon: globe2
+      text: Web of Science
+      href: "https://www.webofscience.com/wos/author/record/45772214"
 ---
 
-## About
+<!-- Edit the short introduction below. Keep it to a few sentences. -->
 
+I am a licensed clinical psychologist and postdoctoral researcher in clinical epidemiology at Örebro University, Sweden.
 
-
+::: {.home-email}
+[tor@arnison.se](mailto:tor@arnison.se)
+:::

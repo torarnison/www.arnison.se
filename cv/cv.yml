@@ -1,0 +1,100 @@
+# ---------------------------------------------------------------------------
+# CV content. Edit this file; the CV page is rebuilt from it on every render.
+#
+#   sections:            list of sections, shown in this order
+#     - title:           section heading
+#       entries:         dated entries (period | content)      — or —
+#       items:           a simple list of short items, shown as tags   — or —
+#       text:            free Markdown text
+#
+# An entry can have: period, role, org, place, details (list; Markdown works).
+# Only period and role are required. Use an en dash for ranges: 2024–
+# ---------------------------------------------------------------------------
+
+name: Tor Arnison
+headline: Clinical psychologist and postdoctoral researcher in clinical epidemiology
+contact:
+  email: tor@arnison.se
+  location: Örebro, Sweden
+  orcid: 0000-0002-9035-0287
+  website: www.arnison.se
+
+# Optional: put a PDF in the files/ folder and name it here to show a download button.
+# pdf: files/Tor_Arnison_CV.pdf
+
+sections:
+
+  - title: Professional experience
+    entries:
+      - period: 2024–
+        role: Postdoctoral researcher
+        org: Clinical Epidemiology and Biostatistics, Örebro University
+        place: Örebro
+
+      - period: 2023–2024
+        role: Epidemiologist
+        org: Clinical Epidemiology and Biostatistics, Region Örebro län
+        place: Örebro
+
+      - period: 2022–2023
+        role: Clinical psychologist
+        org: Primary-level child and youth mental health care, Region Örebro län
+        place: Örebro
+
+      - period: 2017–2022
+        role: Doctoral candidate in psychology
+        org: Örebro University
+        place: Örebro
+
+      - period: 2014–2017
+        role: Clinical psychologist
+        org: Ronneby kommun
+        place: Ronneby
+
+      - period: 2006–2007
+        role: Studio sound engineer
+        org: Toytown Production AB
+        place: Stockholm
+
+  - title: Education
+    entries:
+      - period: 2019–2024
+        role: Courses on teaching in higher education (15+ credits)
+        org: Örebro University
+        place: Örebro
+
+      - period: 2017–2022
+        role: Doctoral studies in psychology
+        org: Örebro University
+        place: Örebro
+
+      - period: 2015–
+        role: Specialist training in neuropsychology
+        org: The Swedish Psychological Association
+        place: Stockholm
+
+      - period: 2008–2014
+        role: Clinical psychologist programme (PsyD)
+        org: Linköping University
+        place: Linköping
+
+  # ---- Examples of sections you can add later (remove the leading "# ") ----
+  #
+  # - title: Grants and awards
+  #   entries:
+  #     - period: 2025
+  #       role: Name of grant
+  #       org: Funder
+  #       details:
+  #         - 1 200 000 SEK, principal investigator
+  #
+  # - title: Teaching and supervision
+  #   entries:
+  #     - period: 2023–
+  #       role: Lecturer, epidemiology
+  #       org: Örebro University
+  #       details:
+  #         - Co-supervisor of two doctoral students
+  #
+  # - title: Methods and tools
+  #   items: [R, SAS, Stata, Python, Mplus, Target trial emulation, Mediation analysis]

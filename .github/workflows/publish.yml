@@ -1,0 +1,40 @@
+# Renders the site and publishes it to the gh-pages branch.
+#
+# Runs on every push to main, once a week (so new ORCID publications appear
+# without you doing anything), and on demand from the Actions tab.
+#
+# One-time setup on GitHub: Settings → Pages → Source: "Deploy from a branch",
+# Branch: gh-pages / (root). The first run creates the branch.
+
+name: Publish website
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

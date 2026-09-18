@@ -1,0 +1,34 @@
+# Short summaries and small adjustments for individual publications.
+#
+# Each entry is matched to an ORCID work by DOI (preferred). If a work has no
+# DOI, use its ORCID put-code instead (shown as a comment next to each work in
+# publications/orcid-cache.json after the first render), or "title_contains".
+#
+# Fields:
+#   doi:            match on DOI (case-insensitive)
+#   put_code:       match on ORCID put-code
+#   title_contains: match on a distinctive part of the title (case-insensitive)
+#   summary:        one or two sentences shown under the reference (Markdown ok)
+#   hide: true      leave this work out of the list
+#   pdf:            path to a PDF visitors can download, e.g. files/papers/arnison-2023.pdf
+#                   (put the file in the files/papers/ folder; only share versions the
+#                   publisher allows, e.g. open-access articles or accepted manuscripts)
+#   link:           any other extra link, e.g. a preprint or a data repository
+#   link_text:      label for that link (default "Full text")
+#
+# Example:
+
+- doi: 10.3389/fpsyg.2023.1206977
+  summary: >
+    An opinion piece arguing that adolescence, when both insomnia and chronic pain
+    most often begin, is the right time to intervene, and that early psychological
+    treatment should be prioritised over treating established, comorbid problems later.
+
+# - doi: 10.1000/example
+#   summary: One sentence on what this study found and why it matters.
+#   pdf: files/papers/example-2024.pdf
+#   link: https://osf.io/example
+#   link_text: Preprint
+
+# - put_code: 123456
+#   hide: true
