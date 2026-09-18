@@ -1,0 +1,526 @@
+{
+  "synced_on": "2026-09-18",
+  "works": [
+    {
+      "put_code": 222137435,
+      "title": "Age of Onset of first depressive episode requiring hospitalisation, Clinical Characteristics, and Response to Electroconvulsive Therapy",
+      "subtitle": null,
+      "journal": "European Psychiatry",
+      "type": "journal-article",
+      "year": "2026",
+      "month": "07",
+      "url": "https://doi.org/10.1192/j.eurpsy.2026.12248",
+      "ids": {
+        "doi": "10.1192/j.eurpsy.2026.12248",
+        "pmid": "42522840"
+      },
+      "authors": [
+        "Tor Arnison",
+        "Natalie Nordin",
+        "Axel Nordenskjöld"
+      ],
+      "source": "Crossref",
+      "volume": null,
+      "issue": null,
+      "pages": "1-30"
+    },
+    {
+      "put_code": 209203261,
+      "title": "Response to \"Rethinking ECT in Depression Among the Oldest-Old: An Underexplored Opportunity\".",
+      "subtitle": null,
+      "journal": "The American journal of geriatric psychiatry : official journal of the American Association for Geriatric Psychiatry",
+      "type": "journal-article",
+      "year": "2026",
+      "month": "02",
+      "url": "https://doi.org/10.1016/j.jagp.2026.01.020",
+      "ids": {
+        "doi": "10.1016/j.jagp.2026.01.020",
+        "pmid": "41794644"
+      },
+      "authors": [
+        "Arnison T",
+        "Nordenskjöld A"
+      ],
+      "source": "Tor Arnison",
+      "volume": "34",
+      "issue": "5",
+      "pages": "784-785"
+    },
+    {
+      "put_code": 209203306,
+      "title": "Risk factors for COPD exacerbations and mortality, and variation between primary care settings: the PRAXIS cohort study in Sweden.",
+      "subtitle": null,
+      "journal": "Family medicine and community health",
+      "type": "journal-article",
+      "year": "2026",
+      "month": "02",
+      "url": "https://europepmc.org/articles/PMC12927360",
+      "ids": {
+        "pmid": "41720490",
+        "doi": "10.1136/fmch-2025-003713",
+        "pmc": "12927360",
+        "wosuid": "wos:001696830300001",
+        "pmcid": "PMC12927360"
+      },
+      "authors": [
+        "Smith C",
+        "Hiyoshi A",
+        "Arnison T",
+        "Eliason G",
+        "Giezeman M",
+        "Hasselgren M",
+        "Janson C",
+        "Karlsson M",
+        "Kisiel MA",
+        "Lisspers K",
+        "Nager A",
+        "Sandelowsky H",
+        "Ställberg B",
+        "Sundh J",
+        "Montgomery S"
+      ],
+      "source": "Tor Arnison",
+      "volume": "14",
+      "issue": "1",
+      "pages": "e003713"
+    },
+    {
+      "put_code": 178594501,
+      "title": "Outcomes of ECT for depression in patients with and without eating disorders",
+      "subtitle": null,
+      "journal": "Journal of Psychiatric Research",
+      "type": "journal-article",
+      "year": "2025",
+      "month": "03",
+      "url": "https://doi.org/10.1016/j.jpsychires.2025.02.042",
+      "ids": {
+        "wosuid": "wos:001437298900001",
+        "doi": "10.1016/j.jpsychires.2025.02.042",
+        "pmid": "40020651"
+      },
+      "authors": [
+        "Cecilia Gillving",
+        "Tor Arnison",
+        "Axel Nordenskjöld"
+      ],
+      "source": "Crossref",
+      "volume": "183",
+      "issue": null,
+      "pages": "308-312"
+    },
+    {
+      "put_code": 186791833,
+      "title": "Electroconvulsive therapy in the oldest-old patients with depression: Response and remission rates, prognostic factors, adverse events and mortality",
+      "subtitle": null,
+      "journal": "The American Journal of Geriatric Psychiatry",
+      "type": "journal-article",
+      "year": "2025",
+      "month": "06",
+      "url": "http://dx.doi.org/10.1016/j.jagp.2025.06.013",
+      "ids": {
+        "wosuid": "wos:001559975600001",
+        "doi": "10.1016/j.jagp.2025.06.013",
+        "pmid": "40640071"
+      },
+      "authors": [
+        "Tor Arnison",
+        "Alina Eriksson",
+        "Axel Nordenskjöld"
+      ],
+      "source": "Tor Arnison",
+      "volume": "33",
+      "issue": "10",
+      "pages": "1065-1076"
+    },
+    {
+      "put_code": 191849572,
+      "title": "Response to “The Evidence Base for Electroconvulsive Therapy (ECT) in Geriatric Depression”",
+      "subtitle": null,
+      "journal": "The American Journal of Geriatric Psychiatry",
+      "type": "journal-article",
+      "year": "2025",
+      "month": "08",
+      "url": "http://dx.doi.org/10.1016/j.jagp.2025.07.015",
+      "ids": {
+        "doi": "10.1016/j.jagp.2025.07.015",
+        "wosuid": "medline:40866179",
+        "pmid": "40866179"
+      },
+      "authors": [
+        "Tor Arnison",
+        "Axel Nordenskjöld"
+      ],
+      "source": "Tor Arnison",
+      "volume": "34",
+      "issue": "1",
+      "pages": "136-137"
+    },
+    {
+      "put_code": 160466787,
+      "title": "Electroconvulsive Therapy Versus Repetitive Transcranial Magnetic Stimulation in Patients With a Depressive Episode",
+      "subtitle": null,
+      "journal": "The Journal of ECT",
+      "type": "journal-article",
+      "year": "2024",
+      "month": "03",
+      "url": "http://dx.doi.org/10.1097/yct.0000000000001005",
+      "ids": {
+        "doi": "10.1097/yct.0000000000001005",
+        "wosuid": "wos:001234685900008",
+        "pmid": "38456234"
+      },
+      "authors": [
+        "Katarzyna Popiolek",
+        "Tor Arnison",
+        "Robert Boden",
+        "Carl Johan Ekman",
+        "Johan Lundberg",
+        "Pontus Strandberg",
+        "Axel Nordenskjöld"
+      ],
+      "source": "Tor Arnison",
+      "volume": "40",
+      "issue": "2",
+      "pages": "140-141"
+    },
+    {
+      "put_code": 159820197,
+      "title": "Adolescent Girls’ Musculoskeletal Pain is More Affected by Insomnia Than Boys, and Through Different Psychological Pathways",
+      "subtitle": null,
+      "journal": "The Journal of Pain",
+      "type": "journal-article",
+      "year": "2024",
+      "month": "09",
+      "url": "https://doi.org/10.1016/j.jpain.2024.104571",
+      "ids": {
+        "doi": "10.1016/j.jpain.2024.104571",
+        "wosuid": "wos:001301120900001",
+        "pmid": "38763259"
+      },
+      "authors": [
+        "Tor Arnison",
+        "Brittany Evans",
+        "Martien G.S. Schrooten",
+        "Jonas Persson",
+        "Tonya M. Palermo"
+      ],
+      "source": "Crossref",
+      "volume": "25",
+      "issue": "9",
+      "pages": "104571"
+    },
+    {
+      "put_code": 159924344,
+      "title": "Association between electroconvulsive therapy and time to readmission after a manic episode",
+      "subtitle": null,
+      "journal": "Acta Psychiatrica Scandinavica",
+      "type": "journal-article",
+      "year": "2024",
+      "month": "04",
+      "url": null,
+      "ids": {
+        "wosuid": "wos:001199821200001",
+        "doi": "10.1111/acps.13689",
+        "pmid": "38604233"
+      },
+      "authors": [
+        "Katarzyna Popiolek",
+        "Tor Arnison",
+        "Susanne Bejerot",
+        "Katja Fall",
+        "Mikael Landén",
+        "Axel Nordenskjöld"
+      ],
+      "source": "Crossref Metadata Search",
+      "volume": "150",
+      "issue": "1",
+      "pages": "22-34"
+    },
+    {
+      "put_code": 144783952,
+      "title": "Safety of and response to electroconvulsive therapy during pregnancy: Results from population‐based nationwide registries",
+      "subtitle": null,
+      "journal": "Acta Psychiatrica Scandinavica",
+      "type": "journal-article",
+      "year": "2024",
+      "month": "11",
+      "url": "https://doi.org/10.1111/acps.13623",
+      "ids": {
+        "doi": "10.1111/acps.13623",
+        "wosuid": "wos:001089301000001",
+        "pmid": "37852926"
+      },
+      "authors": [
+        "Tor Arnison",
+        "Olof Rask",
+        "Axel Nordenskjöld",
+        "Pouya Movahed Rad"
+      ],
+      "source": "Crossref",
+      "volume": "150",
+      "issue": "5",
+      "pages": "360-371"
+    },
+    {
+      "put_code": 209203416,
+      "title": "Sleep problems in children and adolescents as a precursor of mental illness: A systematic review of prospective studies",
+      "subtitle": null,
+      "journal": "JOURNAL OF SLEEP RESEARCH",
+      "type": "journal-article",
+      "year": "2024",
+      "month": null,
+      "url": null,
+      "ids": {
+        "wosuid": "wos:001319389401139"
+      },
+      "authors": [],
+      "source": "Web of Science"
+    },
+    {
+      "put_code": 209203419,
+      "title": "Suicidal ideation in female individuals with fibromyalgia and comorbid obesity: prevalence and association with clinical, pain-related, and psychological factors (vol 25, pg 239, 2024)",
+      "subtitle": null,
+      "journal": "PAIN MEDICINE",
+      "type": "journal-article",
+      "year": "2024",
+      "month": null,
+      "url": null,
+      "ids": {
+        "doi": "10.1093/pm/pnae037",
+        "wosuid": "wos:001220393100001",
+        "pmid": "38734964",
+        "pmcid": "PMC11224576"
+      },
+      "authors": [],
+      "source": "Web of Science",
+      "volume": "25",
+      "issue": "7",
+      "pages": "486-486"
+    },
+    {
+      "put_code": 146878981,
+      "title": "Sambandet mellan sömnbesvär och smärta hos ungdomar",
+      "subtitle": null,
+      "journal": "Sömn och Hälsa",
+      "type": "journal-article",
+      "year": "2023",
+      "month": "11",
+      "url": "https://doi.org/10.59526/soh.10.17518",
+      "ids": {
+        "doi": "10.59526/soh.10.17518"
+      },
+      "authors": [
+        "Tor Arnison"
+      ],
+      "source": "Crossref",
+      "volume": null,
+      "issue": null,
+      "pages": "13-25"
+    },
+    {
+      "put_code": 146224148,
+      "title": "Suicidal ideation in female individuals with fibromyalgia and comorbid obesity: prevalence and association with clinical, pain-related, and psychological factors",
+      "subtitle": null,
+      "journal": "Pain Medicine",
+      "type": "journal-article",
+      "year": "2024",
+      "month": null,
+      "url": "https://publons.com/wos-op/publon/62708293/",
+      "ids": {
+        "wosuid": "wos:001097807300001",
+        "doi": "10.1093/pm/pnad139",
+        "pmid": "37843440",
+        "pmcid": "PMC10906707"
+      },
+      "authors": [
+        "Varallo, Giorgia",
+        "Scarpina, Federica",
+        "Arnison, Tor",
+        "Giusti, Emanuele Maria",
+        "Tenti, Micheal",
+        "Rapelli, Giada",
+        "Cattivelli, Roberto",
+        "Landi, Giulia",
+        "Tossani, Eliana",
+        "Grandi, Silvana",
+        "Franceschini, Christian",
+        "Baldini, Valentina",
+        "Plazzi, Giuseppe",
+        "Capodaglio, Paolo",
+        "Castelnuovo, Gianluca"
+      ],
+      "source": "Web of Science Researcher Profile Sync",
+      "volume": "25",
+      "issue": "3",
+      "pages": "239-247"
+    },
+    {
+      "put_code": 146223843,
+      "title": "Do both the research community and the general public share an interest in the sleep-pain relationship, and do they influence each other?",
+      "subtitle": null,
+      "journal": "Frontiers in Psychology",
+      "type": "journal-article",
+      "year": "2023",
+      "month": null,
+      "url": "https://publons.com/wos-op/publon/62263912/",
+      "ids": {
+        "wosuid": "wos:001042011600001",
+        "doi": "10.3389/fpsyg.2023.1198190",
+        "pmid": "37546481",
+        "pmcid": "PMC10400902"
+      },
+      "authors": [
+        "Arnison, Tor",
+        "Zhao, Xiang"
+      ],
+      "source": "Web of Science Researcher Profile Sync",
+      "volume": "14",
+      "issue": null,
+      "pages": null
+    },
+    {
+      "put_code": 139756669,
+      "title": "Prevention is better than cure: why early interventions for insomnia and chronic pain during adolescence should be a priority",
+      "subtitle": null,
+      "journal": "Frontiers in Psychology",
+      "type": "journal-article",
+      "year": "2023",
+      "month": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85163646933&partnerID=MN8TOARS",
+      "ids": {
+        "doi": "10.3389/fpsyg.2023.1206977",
+        "wosuid": "wos:001017199800001",
+        "eid": "2-s2.0-85163646933",
+        "pmid": "37359854",
+        "pmcid": "PMC10285456"
+      },
+      "authors": [
+        "Arnison, T."
+      ],
+      "source": "Scopus - Elsevier",
+      "volume": "14",
+      "issue": null,
+      "pages": null
+    },
+    {
+      "put_code": 125762111,
+      "title": "Protective health behaviors and fear of social isolation during the COVID-19 pandemic: a public opinion perspective",
+      "subtitle": null,
+      "journal": "Psychology, Health & Medicine",
+      "type": "journal-article",
+      "year": "2023",
+      "month": "11",
+      "url": "https://doi.org/10.1080/13548506.2022.2141279",
+      "ids": {
+        "doi": "10.1080/13548506.2022.2141279",
+        "wosuid": "wos:000878981500001",
+        "eid": "2-s2.0-85141549596",
+        "pmid": "36329672"
+      },
+      "authors": [
+        "Xiang Zhao",
+        "Tor Arnison",
+        "Phil Knobel"
+      ],
+      "source": "Crossref",
+      "volume": "28",
+      "issue": "10",
+      "pages": "2953-2963"
+    },
+    {
+      "put_code": 139756671,
+      "title": "Sleep phase and pre-sleep arousal predicted co-developmental trajectories of pain and insomnia within adolescence",
+      "subtitle": null,
+      "journal": "Scientific Reports",
+      "type": "journal-article",
+      "year": "2022",
+      "month": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85126282904&partnerID=MN8TOARS",
+      "ids": {
+        "doi": "10.1038/s41598-022-08207-y",
+        "wosuid": "wos:000769975800052",
+        "eid": "2-s2.0-85126282904",
+        "pmid": "35296699",
+        "pmcid": "PMC8927379"
+      },
+      "authors": [
+        "Arnison, T.",
+        "Schrooten, M.G.S.",
+        "Bauducco, S.",
+        "Jansson-Fröjmark, M.",
+        "Persson, J."
+      ],
+      "source": "Scopus - Elsevier",
+      "volume": "12",
+      "issue": "1",
+      "pages": null
+    },
+    {
+      "put_code": 139756668,
+      "title": "Longitudinal, bidirectional relationships of insomnia symptoms and musculoskeletal pain across adolescence: The mediating role of mood",
+      "subtitle": null,
+      "journal": "Pain",
+      "type": "journal-article",
+      "year": "2022",
+      "month": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85123237475&partnerID=MN8TOARS",
+      "ids": {
+        "doi": "10.1097/j.pain.0000000000002334",
+        "eid": "2-s2.0-85123237475",
+        "wosuid": "wos:000742403300019",
+        "pmid": "34001767"
+      },
+      "authors": [
+        "Arnison, T.",
+        "Schrooten, M.G.S.",
+        "Hesser, H.",
+        "Jansson-Fröjmark, M.",
+        "Persson, J."
+      ],
+      "source": "Scopus - Elsevier",
+      "volume": "163",
+      "issue": "2",
+      "pages": "287-298"
+    },
+    {
+      "put_code": 139756666,
+      "title": "Individual differences in concurrent developmental trajectories of pain and insomnia in adolescents are predicted by chronotype and arousal-causing pre-sleep behaviors.",
+      "subtitle": null,
+      "journal": "Research Square",
+      "type": "other",
+      "year": "2021",
+      "month": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85163254919&partnerID=MN8TOARS",
+      "ids": {
+        "doi": "10.21203/rs.3.rs-1016845/v1",
+        "eid": "2-s2.0-85163254919"
+      },
+      "authors": [
+        "Arnison, T.",
+        "Schrooten, M.G.S.",
+        "Bauducco, S.",
+        "Jansson-Fröjmark, M.",
+        "Persson, J."
+      ],
+      "source": "Scopus - Elsevier",
+      "volume": null,
+      "issue": null,
+      "pages": null
+    },
+    {
+      "put_code": 110130666,
+      "title": "Posttraumatic Stress among Women with HIV in Zambia",
+      "subtitle": null,
+      "journal": "Medical Journal of Zambia",
+      "type": "journal-article",
+      "year": "2017",
+      "month": "10",
+      "url": "http://dspace.unza.zm/handle/123456789/5859",
+      "ids": {
+        "uri": "http://dspace.unza.zm/handle/123456789/5859"
+      },
+      "authors": [],
+      "source": "Tor Arnison"
+    }
+  ]
+}

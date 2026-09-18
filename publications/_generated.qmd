@@ -1,1 +1,292 @@
-*Publications are fetched from ORCID when the site is rendered.*
+<!-- 21 publications, synced from ORCID on 2026-09-18 -->
+
+::: {.pub-year}
+::: {.pub-year-label}
+2026
+:::
+::: {.pub-list}
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1192/j.eurpsy.2026.12248">Age of Onset of first depressive episode requiring hospitalisation, Clinical Characteristics, and Response to Electroconvulsive Therapy</a></p>
+<p class="pub-meta"><span class="pub-self">Tor Arnison</span>, Natalie Nordin, Axel Nordenskjöld. <span class="pub-journal">European Psychiatry</span>. 2026.</p>
+<p class="pub-links"><a href="https://doi.org/10.1192/j.eurpsy.2026.12248">doi:10.1192/j.eurpsy.2026.12248</a> <a href="https://pubmed.ncbi.nlm.nih.gov/42522840/">PubMed</a> <a class="pub-pdf" href="files/papers/17_age%20of%20onset%20of%20first%20depressive%20episode%20requiring%20hospitalization%20clinical%20characteristics%20and%20response%20to%20electroconvulsive%20therapy.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+Later age at first hospitalisation for depression was associated with better ECT response and remission, independently of current age. Clinical differences explained much of this association: psychiatric comorbidity and treatment complexity contributed to poorer early-onset outcomes, while psychotic features contributed to better late-onset outcomes.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1016/j.jagp.2026.01.020">Response to &quot;Rethinking ECT in Depression Among the Oldest-Old: An Underexplored Opportunity&quot;.</a></p>
+<p class="pub-meta"><span class="pub-self">Arnison T</span>, Nordenskjöld A. <span class="pub-journal">The American journal of geriatric psychiatry : official journal of the American Association for Geriatric Psychiatry</span>, 34(5), 784-785. 2026.</p>
+<p class="pub-links"><a href="https://doi.org/10.1016/j.jagp.2026.01.020">doi:10.1016/j.jagp.2026.01.020</a> <a href="https://pubmed.ncbi.nlm.nih.gov/41794644/">PubMed</a></p>
+```
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1136/fmch-2025-003713">Risk factors for COPD exacerbations and mortality, and variation between primary care settings: the PRAXIS cohort study in Sweden.</a></p>
+<p class="pub-meta">Smith C, Hiyoshi A, <span class="pub-self">Arnison T</span>, Eliason G, Giezeman M, Hasselgren M, Janson C, Karlsson M, Kisiel MA, Lisspers K, and 5 others. <span class="pub-journal">Family medicine and community health</span>, 14(1), e003713. 2026.</p>
+<p class="pub-links"><a href="https://doi.org/10.1136/fmch-2025-003713">doi:10.1136/fmch-2025-003713</a> <a href="https://pubmed.ncbi.nlm.nih.gov/41720490/">PubMed</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12927360/">Free full text</a> <a class="pub-pdf" href="files/papers/18_risk%20factors%20for%20copd%20exacerbations%20and%20mortality.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+An eight-year Swedish primary care study found that patient characteristics explained more variation in COPD outcomes than differences between healthcare centres. Depression predicted exacerbations, while anxiety and cardiovascular disease were associated with mortality. Both low and high body mass index were linked to higher mortality.
+:::
+:::
+
+:::
+:::
+
+::: {.pub-year}
+::: {.pub-year-label}
+2025
+:::
+::: {.pub-list}
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1016/j.jagp.2025.07.015">Response to “The Evidence Base for Electroconvulsive Therapy (ECT) in Geriatric Depression”</a></p>
+<p class="pub-meta"><span class="pub-self">Tor Arnison</span>, Axel Nordenskjöld. <span class="pub-journal">The American Journal of Geriatric Psychiatry</span>, 34(1), 136-137. 2025.</p>
+<p class="pub-links"><a href="https://doi.org/10.1016/j.jagp.2025.07.015">doi:10.1016/j.jagp.2025.07.015</a> <a href="https://pubmed.ncbi.nlm.nih.gov/40866179/">PubMed</a></p>
+```
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1016/j.jagp.2025.06.013">Electroconvulsive therapy in the oldest-old patients with depression: Response and remission rates, prognostic factors, adverse events and mortality</a></p>
+<p class="pub-meta"><span class="pub-self">Tor Arnison</span>, Alina Eriksson, Axel Nordenskjöld. <span class="pub-journal">The American Journal of Geriatric Psychiatry</span>, 33(10), 1065-1076. 2025.</p>
+<p class="pub-links"><a href="https://doi.org/10.1016/j.jagp.2025.06.013">doi:10.1016/j.jagp.2025.06.013</a> <a href="https://pubmed.ncbi.nlm.nih.gov/40640071/">PubMed</a> <a class="pub-pdf" href="files/papers/15_Electroconvulsive%20therapy%20in%20the%20oldest-old%20patients%20with%20depression.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+Among patients aged 85 or older treated with ECT for depression, 81.2% responded and 53.3% achieved remission, exceeding rates in younger patients. Reported adverse events were fewer, and subsequent hospitalisations were less frequent than among matched older patients not receiving ECT.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1016/j.jpsychires.2025.02.042">Outcomes of ECT for depression in patients with and without eating disorders</a></p>
+<p class="pub-meta">Cecilia Gillving, <span class="pub-self">Tor Arnison</span>, Axel Nordenskjöld. <span class="pub-journal">Journal of Psychiatric Research</span>, 183, 308-312. 2025.</p>
+<p class="pub-links"><a href="https://doi.org/10.1016/j.jpsychires.2025.02.042">doi:10.1016/j.jpsychires.2025.02.042</a> <a href="https://pubmed.ncbi.nlm.nih.gov/40020651/">PubMed</a> <a class="pub-pdf" href="files/papers/13_Outcomes%20of%20ECT%20for%20depression%20in%20patients%20with%20and%20without%20eating%20disorders.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+A Swedish register study found that 58.4% of patients with depression and eating disorders responded to ECT, compared with 62.4% of matched patients without eating disorders. Subjective memory complaints were similar, supporting ECT’s potential usefulness despite somewhat lower response rates in this group.
+:::
+:::
+
+:::
+:::
+
+::: {.pub-year}
+::: {.pub-year-label}
+2024
+:::
+::: {.pub-list}
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1111/acps.13623">Safety of and response to electroconvulsive therapy during pregnancy: Results from population‐based nationwide registries</a></p>
+<p class="pub-meta"><span class="pub-self">Tor Arnison</span>, Olof Rask, Axel Nordenskjöld, Pouya Movahed Rad. <span class="pub-journal">Acta Psychiatrica Scandinavica</span>, 150(5), 360-371. 2024.</p>
+<p class="pub-links"><a href="https://doi.org/10.1111/acps.13623">doi:10.1111/acps.13623</a> <a href="https://pubmed.ncbi.nlm.nih.gov/37852926/">PubMed</a> <a class="pub-pdf" href="files/papers/10_Safety%20of%20and%20response%20to%20electroconvulsive%20therapy%20during%20pregnancy.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+A Swedish register study found similar ECT response rates in pregnant and non-pregnant women. Premature birth and low Apgar scores were more common than in matched pregnancies without ECT, but not than in the same women’s other pregnancies. These differences could not be directly attributed to ECT.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1016/j.jpain.2024.104571">Adolescent Girls’ Musculoskeletal Pain is More Affected by Insomnia Than Boys, and Through Different Psychological Pathways</a></p>
+<p class="pub-meta"><span class="pub-self">Tor Arnison</span>, Brittany Evans, Martien G.S. Schrooten, Jonas Persson, Tonya M. Palermo. <span class="pub-journal">The Journal of Pain</span>, 25(9), 104571. 2024.</p>
+<p class="pub-links"><a href="https://doi.org/10.1016/j.jpain.2024.104571">doi:10.1016/j.jpain.2024.104571</a> <a href="https://pubmed.ncbi.nlm.nih.gov/38763259/">PubMed</a> <a class="pub-pdf" href="files/papers/12_Adolescent%20girls%27%20musculoskeletal%20pain.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+Insomnia predicted later musculoskeletal pain 3.5 times more strongly in adolescent girls than boys. Rumination partly explained this relationship in girls, whereas depressed mood was the main mediator in boys, highlighting different psychological pathways linking sleep problems to pain.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1111/acps.13689">Association between electroconvulsive therapy and time to readmission after a manic episode</a></p>
+<p class="pub-meta">Katarzyna Popiolek, <span class="pub-self">Tor Arnison</span>, Susanne Bejerot, Katja Fall, Mikael Landén, Axel Nordenskjöld. <span class="pub-journal">Acta Psychiatrica Scandinavica</span>, 150(1), 22-34. 2024.</p>
+<p class="pub-links"><a href="https://doi.org/10.1111/acps.13689">doi:10.1111/acps.13689</a> <a href="https://pubmed.ncbi.nlm.nih.gov/38604233/">PubMed</a> <a class="pub-pdf" href="files/papers/11_Association%20between%20electroconvulsive%20therapy%20and%20time%20to%20readmission%20after%20a%20manic%20episode.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+A Swedish register study found high psychiatric readmission rates after hospitalisation for mania. ECT was not associated with a longer time to readmission overall. Comparisons of admissions with and without ECT within the same patients suggested a possible protective association, but this was not statistically significant.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1097/yct.0000000000001005">Electroconvulsive Therapy Versus Repetitive Transcranial Magnetic Stimulation in Patients With a Depressive Episode</a></p>
+<p class="pub-meta">Katarzyna Popiolek, <span class="pub-self">Tor Arnison</span>, Robert Boden, Carl Johan Ekman, Johan Lundberg, Pontus Strandberg, Axel Nordenskjöld. <span class="pub-journal">The Journal of ECT</span>, 40(2), 140-141. 2024.</p>
+<p class="pub-links"><a href="https://doi.org/10.1097/yct.0000000000001005">doi:10.1097/yct.0000000000001005</a> <a href="https://pubmed.ncbi.nlm.nih.gov/38456234/">PubMed</a></p>
+```
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title">Sleep problems in children and adolescents as a precursor of mental illness: A systematic review of prospective studies</p>
+<p class="pub-meta"><span class="pub-journal">JOURNAL OF SLEEP RESEARCH</span>. 2024.</p>
+
+```
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1093/pm/pnad139">Suicidal ideation in female individuals with fibromyalgia and comorbid obesity: prevalence and association with clinical, pain-related, and psychological factors</a></p>
+<p class="pub-meta">Varallo, Giorgia, Scarpina, Federica, <span class="pub-self">Arnison, Tor</span>, Giusti, Emanuele Maria, Tenti, Micheal, Rapelli, Giada, Cattivelli, Roberto, Landi, Giulia, Tossani, Eliana, Grandi, Silvana, and 5 others. <span class="pub-journal">Pain Medicine</span>, 25(3), 239-247. 2024.</p>
+<p class="pub-links"><a href="https://doi.org/10.1093/pm/pnad139">doi:10.1093/pm/pnad139</a> <a href="https://pubmed.ncbi.nlm.nih.gov/37843440/">PubMed</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10906707/">Free full text</a> <a class="pub-pdf" href="files/papers/6_Suicidal%20ideation%20in%20women%20with%20fibromyalgia%20in%20comorbidity%20with%20obesity.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+Among women with fibromyalgia and obesity, 37.8% reported suicidal ideation. Depressive symptoms, poor sleep quality, and pain catastrophizing were associated with suicidal thoughts. Catastrophizing remained independently associated after accounting for depression and sleep, highlighting its relevance to psychological assessment and care.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1093/pm/pnae037">Suicidal ideation in female individuals with fibromyalgia and comorbid obesity: prevalence and association with clinical, pain-related, and psychological factors (vol 25, pg 239, 2024)</a></p>
+<p class="pub-meta"><span class="pub-journal">PAIN MEDICINE</span>, 25(7), 486-486. 2024.</p>
+<p class="pub-links"><a href="https://doi.org/10.1093/pm/pnae037">doi:10.1093/pm/pnae037</a> <a href="https://pubmed.ncbi.nlm.nih.gov/38734964/">PubMed</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11224576/">Free full text</a></p>
+```
+:::
+
+:::
+:::
+
+::: {.pub-year}
+::: {.pub-year-label}
+2023
+:::
+::: {.pub-list}
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1080/13548506.2022.2141279">Protective health behaviors and fear of social isolation during the COVID-19 pandemic: a public opinion perspective</a></p>
+<p class="pub-meta">Xiang Zhao, <span class="pub-self">Tor Arnison</span>, Phil Knobel. <span class="pub-journal">Psychology, Health &amp; Medicine</span>, 28(10), 2953-2963. 2023.</p>
+<p class="pub-links"><a href="https://doi.org/10.1080/13548506.2022.2141279">doi:10.1080/13548506.2022.2141279</a> <a href="https://pubmed.ncbi.nlm.nih.gov/36329672/">PubMed</a> <a class="pub-pdf" href="files/papers/8_Protective%20health%20behaviors%20and%20fear%20of%20social%20isolation%20during%20the%20COVID-19%20pandemic%20%20a%20public%20opinion%20perspective.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+A survey found similar COVID-19 protective behaviours among Chinese and European participants. Greater independence from peers was associated with more protective behaviours in China, while fear of social isolation showed a weaker association. These relationships were absent in Europe, suggesting cultural differences in health communication.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.59526/soh.10.17518">Sambandet mellan sömnbesvär och smärta hos ungdomar</a></p>
+<p class="pub-meta"><span class="pub-self">Tor Arnison</span>. <span class="pub-journal">Sömn och Hälsa</span>. 2023.</p>
+<p class="pub-links"><a href="https://doi.org/10.59526/soh.10.17518">doi:10.59526/soh.10.17518</a> <a class="pub-pdf" href="files/papers/7_Sambandet%20mellan%20s%C3%B6mn%20och%20sm%C3%A4rta%20hos%20ungdomar.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+A Swedish popular science article summarising doctoral research on adolescent sleep and pain. It explains their reciprocal relationship, the stronger influence of insomnia on pain, and differences between girls and boys, highlighting sleep treatment as a promising avenue for preventing persistent pain.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.3389/fpsyg.2023.1198190">Do both the research community and the general public share an interest in the sleep-pain relationship, and do they influence each other?</a></p>
+<p class="pub-meta"><span class="pub-self">Arnison, Tor</span>, Zhao, Xiang. <span class="pub-journal">Frontiers in Psychology</span>, 14. 2023.</p>
+<p class="pub-links"><a href="https://doi.org/10.3389/fpsyg.2023.1198190">doi:10.3389/fpsyg.2023.1198190</a> <a href="https://pubmed.ncbi.nlm.nih.gov/37546481/">PubMed</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10400902/">Free full text</a> <a class="pub-pdf" href="files/papers/5_Do%20both%20the%20research%20community%20and%20the%20general%20public%20share%20an%20interest%20in%20the%20sleep-pain%20relationship.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+Scientific publications and public internet searches about the sleep–pain relationship increased sharply after 2004. More published research predicted greater subsequent public interest, but public interest did not predict research output, suggesting that knowledge exchange predominantly flowed from academia to the public.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.3389/fpsyg.2023.1206977">Prevention is better than cure: why early interventions for insomnia and chronic pain during adolescence should be a priority</a></p>
+<p class="pub-meta"><span class="pub-self">Arnison, T.</span>. <span class="pub-journal">Frontiers in Psychology</span>, 14. 2023.</p>
+<p class="pub-links"><a href="https://doi.org/10.3389/fpsyg.2023.1206977">doi:10.3389/fpsyg.2023.1206977</a> <a href="https://pubmed.ncbi.nlm.nih.gov/37359854/">PubMed</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10285456/">Free full text</a> <a class="pub-pdf" href="files/papers/4_Prevention%20is%20better%20than%20cure.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+An opinion piece arguing that adolescence is a crucial window for preventing persistent insomnia and chronic pain. It highlights their reciprocal relationship and proposes prioritising early sleep interventions to interrupt worsening symptoms before they become established in adulthood.
+:::
+:::
+
+:::
+:::
+
+::: {.pub-year}
+::: {.pub-year-label}
+2022
+:::
+::: {.pub-list}
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1097/j.pain.0000000000002334">Longitudinal, bidirectional relationships of insomnia symptoms and musculoskeletal pain across adolescence: The mediating role of mood</a></p>
+<p class="pub-meta"><span class="pub-self">Arnison, T.</span>, Schrooten, M.G.S., Hesser, H., Jansson-Fröjmark, M., Persson, J.. <span class="pub-journal">Pain</span>, 163(2), 287-298. 2022.</p>
+<p class="pub-links"><a href="https://doi.org/10.1097/j.pain.0000000000002334">doi:10.1097/j.pain.0000000000002334</a> <a href="https://pubmed.ncbi.nlm.nih.gov/34001767/">PubMed</a> <a class="pub-pdf" href="files/papers/2_Longitudinal%20bidirectional%20relationships%20of%20insomnia%20symptoms%20and%20musculoskeletal%20pain%20across%20adolescence.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+A five-year adolescent study found that insomnia and musculoskeletal pain predicted each other, with insomnia showing the stronger association with subsequent pain. Depressed and anxious mood partly explained the pathway from insomnia to pain, but not the reverse.
+:::
+:::
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.1038/s41598-022-08207-y">Sleep phase and pre-sleep arousal predicted co-developmental trajectories of pain and insomnia within adolescence</a></p>
+<p class="pub-meta"><span class="pub-self">Arnison, T.</span>, Schrooten, M.G.S., Bauducco, S., Jansson-Fröjmark, M., Persson, J.. <span class="pub-journal">Scientific Reports</span>, 12(1). 2022.</p>
+<p class="pub-links"><a href="https://doi.org/10.1038/s41598-022-08207-y">doi:10.1038/s41598-022-08207-y</a> <a href="https://pubmed.ncbi.nlm.nih.gov/35296699/">PubMed</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8927379/">Free full text</a> <a class="pub-pdf" href="files/papers/3_%20Sleep%20phase%20and%20pre-sleep%20arousal%20predicted%20co-developmental%20trajectories%20of%20pain%20and%20insomnia%20within%20adolescence.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+Insomnia and pain developed together across adolescence, following four patterns: consistently low, persistently high, increasing, or decreasing symptoms. Later sleep timing and greater emotional and cognitive arousal before bedtime predicted changing symptom trajectories, identifying potential targets for interventions addressing both conditions.
+:::
+:::
+
+:::
+:::
+
+::: {.pub-year}
+::: {.pub-year-label}
+2021
+:::
+::: {.pub-list}
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="https://doi.org/10.21203/rs.3.rs-1016845/v1">Individual differences in concurrent developmental trajectories of pain and insomnia in adolescents are predicted by chronotype and arousal-causing pre-sleep behaviors.</a><span class="pub-kind">Other</span></p>
+<p class="pub-meta"><span class="pub-self">Arnison, T.</span>, Schrooten, M.G.S., Bauducco, S., Jansson-Fröjmark, M., Persson, J.. <span class="pub-journal">Research Square</span>. 2021.</p>
+<p class="pub-links"><a href="https://doi.org/10.21203/rs.3.rs-1016845/v1">doi:10.21203/rs.3.rs-1016845/v1</a></p>
+```
+:::
+
+:::
+:::
+
+::: {.pub-year}
+::: {.pub-year-label}
+2017
+:::
+::: {.pub-list}
+
+::: {.pub-item}
+```{=html}
+<p class="pub-title"><a href="http://dspace.unza.zm/handle/123456789/5859">Posttraumatic Stress among Women with HIV in Zambia</a></p>
+<p class="pub-meta"><span class="pub-journal">Medical Journal of Zambia</span>. 2017.</p>
+<p class="pub-links"><a class="pub-pdf" href="files/papers/1_Posttraumatic%20stress%20among%20women%20with%20HIV%20in%20Zambia.pdf" download><i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a></p>
+```
+
+::: {.pub-summary}
+Women living with HIV in Zambia reported more posttraumatic stress symptoms than HIV-negative women, even after accounting for previous traumatic experiences. The findings highlight the importance of recognising and addressing psychological trauma alongside HIV care.
+:::
+:::
+
+:::
+:::

@@ -154,7 +154,7 @@ body.home .quarto-about-jolla img.about-image {
   height: auto;
   box-sizing: content-box;
   padding: 350px 380px;
-  margin: -350px 0 calc(-350px + 1rem);   // no auto side margins: the flex parent centres it
+  margin: -350px 0 calc(-350px + 5rem);   // no auto side margins: the flex parent centres it
   display: block;
   border-radius: 0;
   box-shadow: none;
@@ -168,7 +168,7 @@ body.home h1.title { font-size: 3rem; margin-bottom: 0.2rem; }
 body.home .subtitle { margin-top: 0; }
 body.home main.content {
   max-width: 38rem;
-  margin: 1rem auto 0;
+  margin: 0.4rem auto 0;
   padding-top: 0;
   text-align: center;
 }
