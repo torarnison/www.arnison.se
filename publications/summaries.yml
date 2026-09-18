@@ -18,12 +18,6 @@
 #
 # Example:
 
-- doi: 10.3389/fpsyg.2023.1206977
-  summary: >
-    An opinion piece arguing that adolescence, when both insomnia and chronic pain
-    most often begin, is the right time to intervene, and that early psychological
-    treatment should be prioritised over treating established, comorbid problems later.
-
 # - doi: 10.1000/example
 #   summary: One sentence on what this study found and why it matters.
 #   pdf: files/papers/example-2024.pdf
@@ -33,13 +27,6 @@
 # - put_code: 123456
 #   hide: true
 
-- doi: 10.55320/mjz.44.2.272
-  summary: >
-    Women living with HIV in Zambia reported more posttraumatic stress
-    symptoms than HIV-negative women, even after accounting for previous
-    traumatic experiences. The findings highlight the importance of
-    recognising and addressing psychological trauma alongside HIV care.
-  pdf: files/papers/1_Posttraumatic stress among women with HIV in Zambia.pdf
 
 - doi: 10.1097/j.pain.0000000000002334
   summary: >
@@ -168,3 +155,10 @@
     to higher mortality.
   pdf: files/papers/18_risk factors for copd exacerbations and mortality.pdf
 
+- title_contains: "Women with HIV in Zambia"
+     summary: >
+    Women living with HIV in Zambia reported more posttraumatic stress
+    symptoms than HIV-negative women, even after accounting for previous
+    traumatic experiences. The findings highlight the importance of
+    recognising and addressing psychological trauma alongside HIV care.
+  pdf: files/papers/1_Posttraumatic stress among women with HIV in Zambia.pdf

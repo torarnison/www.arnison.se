@@ -14,7 +14,9 @@
 name: Tor Arnison
 headline: Clinical psychologist and postdoctoral researcher in clinical epidemiology
 contact:
-  email: tor@arnison.se
+  email:
+    - tor@arnison.se
+    - tor.arnison@oru.se
   location: Örebro, Sweden
   orcid: 0000-0002-9035-0287
   website: www.arnison.se

@@ -220,7 +220,24 @@ def enrich_from_crossref(w: dict) -> None:
 # PubMed and PMC ids (NCBI id converter), for works that only carry a DOI
 # ---------------------------------------------------------------------------
 def add_pubmed_ids(works: list[dict]) -> None:
-    todo = [w for w in works if w["ids"].get("doi") and not w["ids"].get("pmid")]
+    # PMIDs: one E-utilities search per DOI (the id converter below only
+    # covers articles that are in PMC, which is why most PubMed links were missing).
+    for w in works:
+        doi = w["ids"].get("doi")
+        if not doi or w["ids"].get("pmid"):
+            continue
+        url = ("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+               f"?db=pubmed&term={urllib.request.quote(doi)}[doi]&retmode=json&tool=arnison.se&email={CROSSREF_MAILTO}")
+        try:
+            ids = get_json(url, retries=2, timeout=20).get("esearchresult", {}).get("idlist", [])
+            if len(ids) == 1:
+                w["ids"]["pmid"] = str(ids[0])
+        except RuntimeError as err:
+            print(f"  warning: PubMed lookup failed for {doi}: {err}", file=sys.stderr)
+        time.sleep(0.35)   # NCBI allows 3 requests per second without an API key
+
+    # PMC ids (free full text) via the id converter
+    todo = [w for w in works if w["ids"].get("doi") and not w["ids"].get("pmcid")]
     for i in range(0, len(todo), 100):
         chunk = todo[i:i + 100]
         dois = ",".join(w["ids"]["doi"] for w in chunk)
@@ -238,7 +255,7 @@ def add_pubmed_ids(works: list[dict]) -> None:
         for w in chunk:
             rec = by_doi.get(w["ids"]["doi"].lower())
             if rec:
-                if rec.get("pmid"):
+                if rec.get("pmid") and not w["ids"].get("pmid"):
                     w["ids"]["pmid"] = str(rec["pmid"])
                 if rec.get("pmcid"):
                     w["ids"]["pmcid"] = str(rec["pmcid"])
@@ -255,15 +272,18 @@ def load_summaries() -> list[dict]:
 
 
 def find_note(w: dict, notes: list[dict]):
+    """Merge every entry in summaries.yml that matches this work; later entries win."""
     doi = (w["ids"].get("doi") or "").lower()
+    merged: dict = {}
     for n in notes:
-        if n.get("doi") and str(n["doi"]).lower() == doi and doi:
-            return n
-        if n.get("put_code") is not None and str(n["put_code"]) == str(w["put_code"]):
-            return n
-        if n.get("title_contains") and str(n["title_contains"]).lower() in w["title"].lower():
-            return n
-    return None
+        hit = (
+            (n.get("doi") and doi and str(n["doi"]).lower() == doi)
+            or (n.get("put_code") is not None and str(n["put_code"]) == str(w["put_code"]))
+            or (n.get("title_contains") and str(n["title_contains"]).lower() in w["title"].lower())
+        )
+        if hit:
+            merged.update({k: v for k, v in n.items() if v not in (None, "")})
+    return merged or None
 
 
 # ---------------------------------------------------------------------------
@@ -335,7 +355,8 @@ def render_work(w: dict, note: dict | None) -> str:
         pdf = str(note["pdf"])
         if not (ROOT / pdf).exists():
             print(f"  warning: PDF not found for '{w['title'][:50]}': {pdf}", file=sys.stderr)
-        links.append(f'<a class="pub-pdf" href="{html.escape(pdf)}" download>'
+        href = urllib.request.quote(pdf, safe="/")     # spaces and apostrophes in file names
+        links.append(f'<a class="pub-pdf" href="{href}" download>'
                      f'<i class="bi bi-file-earmark-arrow-down"></i>Download PDF</a>')
     links_html = f'<p class="pub-links">{" ".join(links)}</p>' if links else ""
 

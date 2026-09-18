@@ -85,7 +85,7 @@ main.content { max-width: 44rem; padding-top: 1.5rem; }
 // Navigation — a tinted band with clearly visible page links
 // ---------------------------------------------------------------
 .navbar {
-  border-bottom: 1.5px solid mix($petrol, $mist, 55%);   // echoes the contour lines
+  border-bottom: 2.5px solid mix($petrol, $mist, 60%);   // echoes the contour lines
 }
 .navbar .navbar-brand {
   font-size: 1.45rem;
@@ -128,11 +128,21 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 // ---------------------------------------------------------------
 // Home page
 // ---------------------------------------------------------------
+// The page fills the window: content is centred vertically between the
+// top bar and the footer, and the footer sits at the bottom edge.
+body.home { display: flex; flex-direction: column; min-height: 100vh; }
+body.home #quarto-content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;   // spare height goes above the portrait, not below the links
+}
+body.home .nav-footer { flex-shrink: 0; }
 body.home #quarto-content > .quarto-about-jolla {   // outranks Quarto's #quarto-content > * padding
   position: relative;
-  margin-top: 0;          // Quarto adds 10% here; keep the page compact
-  padding-top: 1.5rem;
-  padding-bottom: 0;
+  margin-top: 0;          // Quarto adds 10% here
+  padding-top: 3.5rem;    // room for the contour rings above the portrait
+  padding-bottom: 2.25rem;
   text-align: center;
 }
 // The contour map is drawn as the portrait's own background. The image box is

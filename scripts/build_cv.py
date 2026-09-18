@@ -31,8 +31,9 @@ def render_header(cv: dict) -> list[str]:
         lines.append("")
     contact = cv.get("contact") or {}
     parts = []
-    if contact.get("email"):
-        parts.append(f'<span><a href="mailto:{html.escape(contact["email"])}">{html.escape(contact["email"])}</a></span>')
+    emails = contact.get("email") or []
+    for e in (emails if isinstance(emails, list) else [emails]):
+        parts.append(f'<span><a href="mailto:{html.escape(str(e))}">{html.escape(str(e))}</a></span>')
     if contact.get("phone"):
         parts.append(f"<span>{html.escape(str(contact['phone']))}</span>")
     if contact.get("location"):
