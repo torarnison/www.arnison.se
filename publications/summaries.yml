@@ -32,3 +32,139 @@
 
 # - put_code: 123456
 #   hide: true
+
+- doi: 10.55320/mjz.44.2.272
+  summary: >
+    Women living with HIV in Zambia reported more posttraumatic stress
+    symptoms than HIV-negative women, even after accounting for previous
+    traumatic experiences. The findings highlight the importance of
+    recognising and addressing psychological trauma alongside HIV care.
+  pdf: files/papers/1_Posttraumatic stress among women with HIV in Zambia.pdf
+
+- doi: 10.1097/j.pain.0000000000002334
+  summary: >
+    A five-year adolescent study found that insomnia and musculoskeletal
+    pain predicted each other, with insomnia showing the stronger association
+    with subsequent pain. Depressed and anxious mood partly explained the
+    pathway from insomnia to pain, but not the reverse.
+  pdf: files/papers/2_Longitudinal bidirectional relationships of insomnia symptoms and musculoskeletal pain across adolescence.pdf
+
+- doi: 10.1038/s41598-022-08207-y
+  summary: >
+    Insomnia and pain developed together across adolescence, following four
+    patterns: consistently low, persistently high, increasing, or decreasing
+    symptoms. Later sleep timing and greater emotional and cognitive arousal
+    before bedtime predicted changing symptom trajectories, identifying
+    potential targets for interventions addressing both conditions.
+  pdf: files/papers/3_ Sleep phase and pre-sleep arousal predicted co-developmental trajectories of pain and insomnia within adolescence.pdf
+
+- doi: 10.3389/fpsyg.2023.1206977
+  summary: >
+    An opinion piece arguing that adolescence is a crucial window for
+    preventing persistent insomnia and chronic pain. It highlights their
+    reciprocal relationship and proposes prioritising early sleep
+    interventions to interrupt worsening symptoms before they become
+    established in adulthood.
+  pdf: files/papers/4_Prevention is better than cure.pdf
+
+- doi: 10.3389/fpsyg.2023.1198190
+  summary: >
+    Scientific publications and public internet searches about the sleep–pain
+    relationship increased sharply after 2004. More published research
+    predicted greater subsequent public interest, but public interest did
+    not predict research output, suggesting that knowledge exchange
+    predominantly flowed from academia to the public.
+  pdf: files/papers/5_Do both the research community and the general public share an interest in the sleep-pain relationship.pdf
+
+- doi: 10.1093/pm/pnad139
+  summary: >
+    Among women with fibromyalgia and obesity, 37.8% reported suicidal
+    ideation. Depressive symptoms, poor sleep quality, and pain
+    catastrophizing were associated with suicidal thoughts. Catastrophizing
+    remained independently associated after accounting for depression and
+    sleep, highlighting its relevance to psychological assessment and care.
+  pdf: files/papers/6_Suicidal ideation in women with fibromyalgia in comorbidity with obesity.pdf
+
+- doi: 10.59526/soh.10.17518
+  summary: >
+    A Swedish popular science article summarising doctoral research on
+    adolescent sleep and pain. It explains their reciprocal relationship,
+    the stronger influence of insomnia on pain, and differences between
+    girls and boys, highlighting sleep treatment as a promising avenue
+    for preventing persistent pain.
+  pdf: files/papers/7_Sambandet mellan sömn och smärta hos ungdomar.pdf
+
+- doi: 10.1080/13548506.2022.2141279
+  summary: >
+    A survey found similar COVID-19 protective behaviours among Chinese
+    and European participants. Greater independence from peers was
+    associated with more protective behaviours in China, while fear of
+    social isolation showed a weaker association. These relationships
+    were absent in Europe, suggesting cultural differences in health
+    communication.
+  pdf: files/papers/8_Protective health behaviors and fear of social isolation during the COVID-19 pandemic  a public opinion perspective.pdf
+
+- doi: 10.1111/acps.13623
+  summary: >
+    A Swedish register study found similar ECT response rates in pregnant
+    and non-pregnant women. Premature birth and low Apgar scores were
+    more common than in matched pregnancies without ECT, but not than
+    in the same women’s other pregnancies. These differences could not
+    be directly attributed to ECT.
+  pdf: files/papers/10_Safety of and response to electroconvulsive therapy during pregnancy.pdf
+
+- doi: 10.1111/acps.13689
+  summary: >
+    A Swedish register study found high psychiatric readmission rates
+    after hospitalisation for mania. ECT was not associated with a longer
+    time to readmission overall. Comparisons of admissions with and
+    without ECT within the same patients suggested a possible protective
+    association, but this was not statistically significant.
+  pdf: files/papers/11_Association between electroconvulsive therapy and time to readmission after a manic episode.pdf
+
+- doi: 10.1016/j.jpain.2024.104571
+  summary: >
+    Insomnia predicted later musculoskeletal pain 3.5 times more strongly
+    in adolescent girls than boys. Rumination partly explained this
+    relationship in girls, whereas depressed mood was the main mediator
+    in boys, highlighting different psychological pathways linking sleep
+    problems to pain.
+  pdf: files/papers/12_Adolescent girls' musculoskeletal pain.pdf
+
+- doi: 10.1016/j.jpsychires.2025.02.042
+  summary: >
+    A Swedish register study found that 58.4% of patients with depression
+    and eating disorders responded to ECT, compared with 62.4% of matched
+    patients without eating disorders. Subjective memory complaints were
+    similar, supporting ECT’s potential usefulness despite somewhat lower
+    response rates in this group.
+  pdf: files/papers/13_Outcomes of ECT for depression in patients with and without eating disorders.pdf
+
+- doi: 10.1016/j.jagp.2025.06.013
+  summary: >
+    Among patients aged 85 or older treated with ECT for depression,
+    81.2% responded and 53.3% achieved remission, exceeding rates in
+    younger patients. Reported adverse events were fewer, and subsequent
+    hospitalisations were less frequent than among matched older patients
+    not receiving ECT.
+  pdf: files/papers/15_Electroconvulsive therapy in the oldest-old patients with depression.pdf
+
+- doi: 10.1192/j.eurpsy.2026.12248
+  summary: >
+    Later age at first hospitalisation for depression was associated with
+    better ECT response and remission, independently of current age.
+    Clinical differences explained much of this association: psychiatric
+    comorbidity and treatment complexity contributed to poorer early-onset
+    outcomes, while psychotic features contributed to better late-onset outcomes.
+  pdf: files/papers/17_age of onset of first depressive episode requiring hospitalization clinical characteristics and response to electroconvulsive therapy.pdf
+
+- doi: 10.1136/fmch-2025-003713
+  summary: >
+    An eight-year Swedish primary care study found that patient
+    characteristics explained more variation in COPD outcomes than
+    differences between healthcare centres. Depression predicted
+    exacerbations, while anxiety and cardiovascular disease were associated
+    with mortality. Both low and high body mass index were linked
+    to higher mortality.
+  pdf: files/papers/18_risk factors for copd exacerbations and mortality.pdf
+

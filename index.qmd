@@ -5,6 +5,7 @@ image: images/profile.webp
 format:
   html:
     body-classes: home
+    page-layout: full
 about:
   template: jolla
   image: images/profile.webp
@@ -36,5 +37,5 @@ about:
 I am a licensed clinical psychologist and postdoctoral researcher in clinical epidemiology at Örebro University, Sweden.
 
 ::: {.home-email}
-[tor@arnison.se](mailto:tor@arnison.se)
+[tor@arnison.se](mailto:tor@arnison.se)  ·  [tor.arnison@oru.se](mailto:tor.arnison@oru.se)
 :::

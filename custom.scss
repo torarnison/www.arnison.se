@@ -85,7 +85,7 @@ main.content { max-width: 44rem; padding-top: 1.5rem; }
 // Navigation — a tinted band with clearly visible page links
 // ---------------------------------------------------------------
 .navbar {
-  border-bottom: 1px solid $mist;
+  border-bottom: 1.5px solid mix($petrol, $mist, 55%);   // echoes the contour lines
 }
 .navbar .navbar-brand {
   font-size: 1.45rem;
@@ -130,7 +130,9 @@ a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 // ---------------------------------------------------------------
 body.home #quarto-content > .quarto-about-jolla {   // outranks Quarto's #quarto-content > * padding
   position: relative;
-  padding-top: 3rem;
+  margin-top: 0;          // Quarto adds 10% here; keep the page compact
+  padding-top: 1.5rem;
+  padding-bottom: 0;
   text-align: center;
 }
 // The contour map is drawn as the portrait's own background. The image box is
@@ -142,7 +144,7 @@ body.home .quarto-about-jolla img.about-image {
   height: auto;
   box-sizing: content-box;
   padding: 350px 380px;
-  margin: -350px 0 calc(-350px + 1.4rem);   // no auto side margins: the flex parent centres it
+  margin: -350px 0 calc(-350px + 1rem);   // no auto side margins: the flex parent centres it
   display: block;
   border-radius: 0;
   box-shadow: none;
@@ -155,13 +157,13 @@ body.home .quarto-about-jolla img.about-image {
 body.home h1.title { font-size: 3rem; margin-bottom: 0.2rem; }
 body.home .subtitle { margin-top: 0; }
 body.home main.content {
-  max-width: 34rem;
-  margin: 1.4rem auto 0;
+  max-width: 38rem;
+  margin: 1rem auto 0;
   padding-top: 0;
   text-align: center;
 }
 body.home main.content p { max-width: none; margin-left: auto; margin-right: auto; }
-.home-email { text-align: center; margin-top: 1.2rem; }
+.home-email { text-align: center; margin-top: 1rem; color: $slate; }
 .home-email p { margin: 0; text-align: center; }
 .home-email a { color: $deep; font-size: 1.15rem; border-bottom: 1px solid $mist; }
 .home-email a:hover { text-decoration: none; border-bottom-color: $petrol; }
@@ -171,11 +173,12 @@ body.home main.content p { max-width: none; margin-left: auto; margin-right: aut
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.4rem 1.35rem;
-  margin: 2rem auto 0;
-  padding-top: 1.4rem;
+  gap: 0.4rem 1.6rem;
+  margin: 1.6rem auto 0;
+  padding: 1.2rem 0 0 !important;
   border-top: 1px solid $mist;
-  max-width: 50rem;
+  width: 100%;
+  max-width: 64rem;
 }
 .quarto-about-jolla .about-links .about-link {
   font-size: 1.02rem;
@@ -199,19 +202,21 @@ body.home main.content p { max-width: none; margin-left: auto; margin-right: aut
 }
 
 // ---------------------------------------------------------------
-// Publications
+// Publications — a wider measure so each entry takes fewer lines
 // ---------------------------------------------------------------
-.pub-sync { font-size: 0.95rem; color: $slate; margin: 0.2rem 0 2rem; }
+body.publications main.content { max-width: 62rem; margin-left: auto; margin-right: auto; }
+body.publications #quarto-content > * { padding-left: 1rem; padding-right: 1rem; }
+.pub-item p { max-width: none; }
 .pub-year {
   display: grid;
-  grid-template-columns: 5.5rem 1fr;
+  grid-template-columns: 4.5rem 1fr;
   column-gap: 1.2rem;
-  margin-top: 2.2rem;
+  margin-top: 1.6rem;
 }
 .pub-year-label { font-size: 1.7rem; font-weight: 400; color: $petrol; line-height: 1.2; padding-top: 0.15rem; }
-.pub-item { padding: 0.4rem 0 1.3rem; border-bottom: 1px solid $mist; margin-bottom: 1.1rem; }
+.pub-item { padding: 0.3rem 0 0.9rem; border-bottom: 1px solid $mist; margin-bottom: 0.7rem; }
 .pub-item:last-child { border-bottom: none; }
-.pub-title { font-size: 1.32rem; font-weight: 500; line-height: 1.3; margin: 0 0 0.3rem; }
+.pub-title { font-size: 1.25rem; font-weight: 500; line-height: 1.3; margin: 0 0 0.25rem; }
 .pub-title a { color: $ink; }
 .pub-title a:hover { color: $petrol; }
 .pub-meta { font-size: 1rem; color: $slate; line-height: 1.5; margin: 0; }
@@ -243,9 +248,9 @@ body.home main.content p { max-width: none; margin-left: auto; margin-right: aut
   margin: 0.7rem 0 0;
   padding-left: 0.9rem;
   border-left: 2px solid mix($petrol, $mist, 45%);
-  font-size: 1.02rem;
+  font-size: 1rem;
   color: mix($ink, $slate, 55%);
-  max-width: 62ch;
+  max-width: 90ch;
 }
 @media (max-width: 575.98px) {
   .pub-year { grid-template-columns: 1fr; }
@@ -300,6 +305,7 @@ body.home main.content p { max-width: none; margin-left: auto; margin-right: aut
   font-size: 0.92rem;
   color: $slate;
   margin-top: 4rem;
+  body.home & { margin-top: 0.5rem; }
   padding: 1.4rem 0 2rem;
 }
 .nav-footer a { color: $slate; }

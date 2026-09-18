@@ -217,6 +217,34 @@ def enrich_from_crossref(w: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
+# PubMed and PMC ids (NCBI id converter), for works that only carry a DOI
+# ---------------------------------------------------------------------------
+def add_pubmed_ids(works: list[dict]) -> None:
+    todo = [w for w in works if w["ids"].get("doi") and not w["ids"].get("pmid")]
+    for i in range(0, len(todo), 100):
+        chunk = todo[i:i + 100]
+        dois = ",".join(w["ids"]["doi"] for w in chunk)
+        url = ("https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/"
+               f"?ids={urllib.request.quote(dois, safe=',')}&format=json&tool=arnison.se&email={CROSSREF_MAILTO}")
+        try:
+            data = get_json(url, retries=2, timeout=20)
+        except RuntimeError as err:
+            print(f"  warning: PubMed id lookup failed: {err}", file=sys.stderr)
+            return
+        by_doi = {}
+        for rec in data.get("records", []):
+            if rec.get("doi") and rec.get("status") != "error":
+                by_doi[rec["doi"].lower()] = rec
+        for w in chunk:
+            rec = by_doi.get(w["ids"]["doi"].lower())
+            if rec:
+                if rec.get("pmid"):
+                    w["ids"]["pmid"] = str(rec["pmid"])
+                if rec.get("pmcid"):
+                    w["ids"]["pmcid"] = str(rec["pmcid"])
+
+
+# ---------------------------------------------------------------------------
 # Notes / summaries
 # ---------------------------------------------------------------------------
 def load_summaries() -> list[dict]:
@@ -298,6 +326,9 @@ def render_work(w: dict, note: dict | None) -> str:
     pmid = w["ids"].get("pmid")
     if pmid:
         links.append(f'<a href="https://pubmed.ncbi.nlm.nih.gov/{html.escape(str(pmid))}/">PubMed</a>')
+    pmcid = w["ids"].get("pmcid")
+    if pmcid:
+        links.append(f'<a href="https://pmc.ncbi.nlm.nih.gov/articles/{html.escape(str(pmcid))}/">Free full text</a>')
     if note and note.get("link"):
         links.append(f'<a href="{html.escape(str(note["link"]))}">{html.escape(str(note.get("link_text", "Full text")))}</a>')
     if note and note.get("pdf"):
@@ -337,13 +368,10 @@ def render_page(works: list[dict], notes: list[dict], synced_on: str, from_cache
 
     visible.sort(key=sort_key)
 
-    lines = []
-    source_note = "from a saved copy (ORCID could not be reached at render time)" if from_cache else "from ORCID"
-    lines.append(
-        f'<p class="pub-sync">{len(visible)} publications, synced {source_note} on {synced_on}. '
-        f'Full record at <a href="https://orcid.org/{ORCID_ID}">orcid.org/{ORCID_ID}</a>.</p>'
-    )
-    lines = ["```{=html}"] + lines + ["```", ""]
+    # A note about the data source is kept as an HTML comment only (visible in
+    # the page source, useful when checking that the sync worked).
+    source_note = "a saved copy; ORCID could not be reached at render time" if from_cache else "ORCID"
+    lines = [f"<!-- {len(visible)} publications, synced from {source_note} on {synced_on} -->", ""]
 
     current_year = None
     for w, note in visible:
@@ -373,6 +401,7 @@ def main() -> int:
             for w in works:
                 if not w["authors"] or not w["journal"] or not w.get("volume"):
                     enrich_from_crossref(w)
+        add_pubmed_ids(works)
         synced_on = date.today().isoformat()
         CACHE_FILE.write_text(json.dumps({"synced_on": synced_on, "works": works}, indent=2, ensure_ascii=False),
                               encoding="utf-8")

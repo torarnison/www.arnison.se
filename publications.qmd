@@ -1,6 +1,9 @@
 ---
 title: "Publications"
-subtitle: "Synced automatically from ORCID"
+format:
+  html:
+    body-classes: publications
+    page-layout: full
 ---
 
 <!--
